@@ -1,8 +1,7 @@
-
 @import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/container/container.css);
-@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/content/content.css);
 
 /* Блок "header" */
 
@@ -21,5 +20,13 @@
 
 /* Секция "Чего мы там не видели?"  */
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/intro/__section-title/intro__section-title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__span-item/intro__span-item.css);
+
+/* Секция photo-grid  */
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
