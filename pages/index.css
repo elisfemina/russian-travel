@@ -18,10 +18,9 @@
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
-/* Секция "Чего мы там не видели?"  */
+/* Секция intro "Чего мы там не видели?"  */
 @import url(../blocks/intro/intro.css);
-@import url(../blocks/section-title/section-title.css);
-@import url(../blocks/intro/__section-title/intro__section-title.css);
+@import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__span-item/intro__span-item.css);
@@ -29,4 +28,11 @@
 /* Секция photo-grid  */
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+/* Секция places  */
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
 
