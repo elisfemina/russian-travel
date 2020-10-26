@@ -1,0 +1,7 @@
+.cover__overlay {
+  background-image: url("../../../images/cover-trains.jpg");
+  background-color: #48cae4;
+  width: 20rem;
+  height: 12.5rem;
+  background-size: contain;
+}
