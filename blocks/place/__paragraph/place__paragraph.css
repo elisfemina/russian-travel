@@ -1,4 +1,5 @@
 .place__paragraph {
+  box-sizing: border-box;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;

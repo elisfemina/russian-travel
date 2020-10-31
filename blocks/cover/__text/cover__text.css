@@ -1,0 +1,7 @@
+.cover__text {
+  display: grid;
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+  width: 18rem;
+  z-index: 2;
+}

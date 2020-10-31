@@ -1,4 +1,5 @@
 .place {
+  display: grid;
   color: #FFF;
   margin-bottom: 3rem;
 }
