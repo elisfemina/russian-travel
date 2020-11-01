@@ -1,4 +1,11 @@
 .footer {
-  margin: 0 0 1.5rem;
   justify-self: start;
+}
+
+@media (min-width: 768px) {
+  .footer {}
+}
+
+@media (min-width: 1024px) {
+  .footer {}
 }

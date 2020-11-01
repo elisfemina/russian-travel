@@ -1,2 +1,9 @@
 .lead {
+  font-family: 'Inter',
+    'Segoe UI',
+    'Roboto',
+    'Helvetica',
+    'San Francisco',
+    'sans-serif';
+  color: #fff;
 }

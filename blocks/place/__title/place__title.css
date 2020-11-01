@@ -1,8 +1,17 @@
 .place__title {
+  box-sizing: border-box;
   margin: 0 1rem 2rem;
-  font-family: Inter;
   font-style: normal;
   font-weight: 900;
   font-size: 2rem;
   line-height: 1.09375;
+}
+
+@media (min-width: 768px) {
+  .place__title {
+    margin: 0;
+    font-size: 2.625rem;
+    line-height: 1.0952;
+    width: 21.25rem;
+  }
 }
