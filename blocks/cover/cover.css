@@ -15,3 +15,12 @@
   justify-items: center;
 }
 
+.cover:hover {
+  cursor: url(../../images/cursor-pointer.svg), pointer;
+}
+
+@media (min-width: 1280px) {
+  .cover {
+    width: calc(100% - 6rem);
+  }
+}

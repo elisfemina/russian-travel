@@ -14,7 +14,11 @@
   text-decoration-line: none;
 }
 
-.header__lang-link::after {
+.header__lang-link:hover {
+  cursor: url(../../../images/cursor-pointer.svg), pointer;
+}
+
+.header__lang-link:active {
   content: "";
   display: block;
   background-color: #fff;

@@ -1,3 +1,4 @@
+@import url(../vendor/normalize.css);
 @import url(../blocks/body/body.css);
 @import url(../fonts/fonts.css);
 @import url(../blocks/page/page.css);
@@ -26,6 +27,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__span-item/intro__span-item.css);
+@import url(../blocks/content/__intro/content__intro.css);
 
 /* Секция photo-grid  */
 @import url(../blocks/photo-grid/photo-grid.css);

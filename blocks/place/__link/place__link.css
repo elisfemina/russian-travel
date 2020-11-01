@@ -6,3 +6,7 @@
   text-decoration-line: underline;
   color: #fff;
 }
+
+.place__link:hover {
+  cursor: url(../../../images/cursor-pointer.svg), pointer;
+}

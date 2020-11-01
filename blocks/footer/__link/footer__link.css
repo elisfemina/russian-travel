@@ -1,9 +1,19 @@
 .footer__link {
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 1.5rem;
+  line-height: 1;
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
+}
+
+.footer__link:hover {
+  cursor: url(../../../images/cursor-pointer.svg), pointer;
+}
+
+@media (min-width: 768px) {
+  .footer__link {
+    font-size: 1rem;
+    line-height: 1.125;
+  }
 }

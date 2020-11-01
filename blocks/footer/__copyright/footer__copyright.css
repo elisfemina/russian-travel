@@ -1,4 +1,6 @@
 .footer__copyright {
+  justify-self: end;
+  align-self: center;
   margin: 0;
   font-family: Inter;
   font-style: normal;

@@ -3,7 +3,7 @@
   grid-row: 1 / -1;
   grid-column: 1 / -1;
   background: #2A2C2F;
-  opacity: 0;
+  opacity: 0.3;
   height: 62.5vw;
   z-index: 1;
   transition: 0.5s;
@@ -12,5 +12,5 @@
 
 .cover__overlay:hover {
   background: #2A2C2F;
-  opacity: 0.3;
+  opacity: 0.8;
 }
