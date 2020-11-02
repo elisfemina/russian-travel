@@ -18,34 +18,9 @@
   cursor: url(../../../images/cursor-pointer.svg), pointer;
 }
 
-.header__lang-link:active {
-  content: "";
-  display: block;
-  background-color: #fff;
-  width: 1.375rem;
-  height: 0.094rem;
-}
-
-.header__lang-link:last-child::after {
-  content: "";
-  display: none;
-  background-color: #fff;
-  width: 1.375rem;
-  height: 0.094rem;
-}
-
-
 @media (min-width: 768px) {
   .header__lang-link {
     font-size: 1.5rem;
     line-height: 1.16661;
-  }
-
-  .header__lang-link::after {
-    content: "";
-    display: block;
-    background-color: #fff;
-    width: 1.875rem;
-    height: 0.125rem;
   }
 }
