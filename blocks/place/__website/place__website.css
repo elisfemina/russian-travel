@@ -6,7 +6,6 @@
 @media (min-width: 768px) {
   .place__website {
     display: grid;
-    height: 2.875rem;
     align-self: flex-end;
   }
 }
