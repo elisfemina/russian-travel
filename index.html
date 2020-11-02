@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Путешествия
-    по России</title>
+  <title>Путешествия по России</title>
+  <link rel="shortcut icon" href="./images/russia-map-favicon.png" type="image/png">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
@@ -16,7 +16,7 @@
     <!-- Блок "header" -->
 
     <header class="header page__header">
-      <a href=""><img src="./images/header-logo.svg" alt="Логотип" class="header__logo"></a>
+      <a class="header__logo-link" href=""><img src="./images/header-logo.svg" alt="Логотип" class="header__logo"></a>
 
       <div class="header__lang-links">
         <a href="" class="header__lang-link">Ru</a>
@@ -78,17 +78,20 @@
 
       <section class="photo-grid container">
         <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Пейзаж небо и берёзки из окна поезда">
-        <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="">
+        <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Горные вершины в облаках">
+        <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg"
+          alt="Ранне утро, луг. Собака стоит на стоге сена">
+        <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="Хвойный лес покрытый туманом">
+        <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="Машина стоящая на льду">
+        <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg"
+          alt="Берег озера, волны на воде, на горизонте горы">
+        <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="Острые вершины гор покрытые снегом">
+        <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="Знак пешеходного перехода">
+        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="Горы покрытые туманом">
+        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg"
+          alt="Зелёное поле, на заднем плане гора">
+        <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Крутой берег озера">
+        <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Горы покрытые туманом">
 
       </section>
 
@@ -127,7 +130,7 @@
               target="_blank">National Geographic</a>
           </nav>
 
-          <img src="./images/place-kolsky.jpg" alt="" class="place__image">
+          <img src="./images/place-kolsky.jpg" alt="Заснеженные горы" class="place__image">
 
           <section class="place__text">
             <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой
@@ -151,7 +154,7 @@
               target="_blank">Facebook</a>
           </nav>
 
-          <img src="./images/place-altai.jpg" alt="" class="place__image">
+          <img src="./images/place-altai.jpg" alt="Ноутбук стоит на перилах на фоне деревьев" class="place__image">
 
           <section class="place__text">
             <p class="place__paragraph">Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если
@@ -174,7 +177,7 @@
             <a href="https://vk.com/baikalmile" class="place__link" target="_blank">https://vk.com/baikalmile</a>
           </nav>
 
-          <img src="./images/place-winter-baikal.jpg" alt="" class="place__image">
+          <img src="./images/place-winter-baikal.jpg" alt="Фото льда" class="place__image">
 
           <section class="place__text">
             <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это
@@ -195,7 +198,7 @@
             <a href="http://vodlozero.ru/" class="place__link" target="_blank">http://vodlozero.ru/</a>
           </nav>
 
-          <img src="./images/place-karelia.jpg" alt="" class="place__image">
+          <img src="./images/place-karelia.jpg" alt="Фото реки протекающей между лесными берегами" class="place__image">
 
           <section class="place__text">
             <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
@@ -212,8 +215,7 @@
       <!-- Секция cover "До Байкала
 «на собаках»" -->
       <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
-        <div class="cover__overlay"></div>
-        <section class="cover__text">
+        <section class="cover__overlay">
           <h2 class="cover__title">До Байкала
             «на собаках»</h2>
           <p class="cover__paragraph">По мотивам учебной темы
@@ -238,14 +240,8 @@
         <p class="footer__copyright">&copy; 2020 Илья Науменко</p>
 
       </footer>
-
-
     </main>
-
   </div>
-
-
-
 </body>
 
 </html>

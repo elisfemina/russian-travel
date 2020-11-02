@@ -1,0 +1,6 @@
+.header__logo-link {}
+
+.header__logo-link:hover {
+  cursor: url(../../../images/cursor-pointer.svg),
+    pointer;
+}

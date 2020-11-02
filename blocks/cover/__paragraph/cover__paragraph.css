@@ -1,18 +1,22 @@
 .cover__paragraph {
   box-sizing: border-box;
   margin: 0 auto;
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 0.875rem;
   line-height: 1.1428;
   text-align: center;
-  width: 18rem;
+  max-width: 18rem;
   padding: 0 0.5rem;
   min-height: 3rem;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (min-width: 768px) {
+  .cover__paragraph {
+    justify-self: center;
+    max-width: 22.5rem;
+    font-size: 1.125rem;
+    line-height: 1.2222;
+    padding: 0;
+  }
 }

@@ -16,7 +16,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .place__title {
     font-size: 4.5rem;
     line-height: 1.0555;

@@ -1,4 +1,11 @@
 .cover {
+  font-family: 'Inter',
+    'Segoe UI',
+    'Roboto',
+    'Helvetica',
+    'San Francisco',
+    'sans-serif';
+  color: #fff;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
@@ -9,7 +16,6 @@
   max-height: 30rem;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #FFF;
   text-decoration: none;
   align-items: center;
   justify-items: center;
