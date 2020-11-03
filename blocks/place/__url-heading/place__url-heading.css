@@ -2,7 +2,8 @@
   font-style: normal;
   font-weight: normal;
   font-size: 0.75rem;
-  line-height: 0.75rem;
+  line-height: 1.25;
   letter-spacing: 0.2em;
   margin: 0 0 0.75rem;
+  color: #AAA;
 }

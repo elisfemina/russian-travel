@@ -19,5 +19,6 @@
 @media (min-width: 1280px) {
   .photo-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1184px;
   }
 }

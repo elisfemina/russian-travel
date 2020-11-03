@@ -11,6 +11,11 @@
   max-width: 18rem;
 }
 
+.cover__title:hover {
+  cursor: url(../../../images/cursor-pointer.svg),
+    pointer;
+}
+
 @media (min-width: 768px) {
   .cover__title {
     max-width: 35rem;

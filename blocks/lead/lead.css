@@ -7,3 +7,15 @@
     'sans-serif';
   color: #fff;
 }
+
+@media (min-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead {
+    max-width: 984px;
+  }
+}

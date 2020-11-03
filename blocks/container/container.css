@@ -14,3 +14,9 @@
     padding: 0 3rem;
   }
 }
+
+@media (min-width: 1280px) {
+  .container {
+    padding: 0;
+  }
+}

@@ -16,6 +16,6 @@
 
 @media (min-width: 1280px) {
   .page__header {
-    margin: 1.75rem 3.75rem 3rem;
+    margin: 1.75rem auto 3rem;
   }
 }
