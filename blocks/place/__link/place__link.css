@@ -5,8 +5,10 @@
   line-height: 1.375rem;
   text-decoration-line: underline;
   color: #fff;
+  transition: .5s;
 }
 
 .place__link:hover {
   cursor: url(../../../images/cursor-pointer.svg), pointer;
+  opacity: 0.8;
 }

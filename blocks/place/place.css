@@ -8,6 +8,21 @@
     'San Francisco',
     'sans-serif';
   color: #fff;
+  grid-template-areas: "title"
+    "image"
+    "text";
+}
+
+.place__title {
+  grid-area: title;
+}
+
+.place__image {
+  grid-area: image;
+}
+
+.place-text {
+  grid-area: text;
 }
 
 .place:last-child {
@@ -16,10 +31,16 @@
 
 @media (min-width: 768px) {
   .place {
-    grid-template-columns: 1fr 1fr;
     row-gap: 3rem;
     column-gap: 1.75rem;
     margin-bottom: 4.5rem;
+    grid-template-areas: "title website"
+      "image  text";
+    grid-template-columns: 44.27% 1fr;
+  }
+
+  .place-website {
+    grid-area: website;
   }
 }
 
@@ -27,11 +48,13 @@
   .place {
     column-gap: 2rem;
     margin-bottom: 5rem;
+    grid-template-columns: 42.96% 1fr;
   }
 }
 
 @media (min-width: 1280px) {
   .place {
     column-gap: 2.5rem;
+    grid-template-columns: 28.75rem 1fr;
   }
 }
